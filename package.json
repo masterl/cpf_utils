@@ -1,0 +1,17 @@
+{
+  "name": "cpf_utils",
+  "version": "0.0.1",
+  "description": "Utilities for studying CPF format. Including generation and validation",
+  "main": "generate_cpfs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cpf",
+    "utilities",
+    "generator",
+    "validator"
+  ],
+  "author": "Leonardo de Oliveira Lourenço",
+  "license": "MIT"
+}
