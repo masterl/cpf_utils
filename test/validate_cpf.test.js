@@ -36,4 +36,12 @@ describe('validate_cpf', () => {
       expect(validate_cpf(cpf_input)).to.be.false;
     });
   });
+
+  describe('when CPF is invalid', () => {
+    const cpf_input = '123.456.789-12';
+
+    it('should return false', () => {
+      expect(validate_cpf(cpf_input)).to.be.false;
+    });
+  });
 });
