@@ -4,7 +4,8 @@
   "description": "Utilities for studying CPF format. Including generation and validation",
   "main": "generate_cpfs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --recursive -R spec && npm run lint",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "keywords": [
     "cpf",
@@ -13,5 +14,15 @@
     "validator"
   ],
   "author": "Leonardo de Oliveira Lourenço",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "chai": "^3.5.0",
+    "eslint": "^3.11.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
 }
