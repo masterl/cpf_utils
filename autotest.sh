@@ -11,9 +11,6 @@ if [ $ulimit_size -lt 4000 ]; then
   ulimit -Sn 5000
 fi
 
-echo -e "#!/bin/sh\n\nnpm --prefix ./server test\nexit \$?" > $current_directory/../.git/hooks/pre-push
-chmod 760 $current_directory/../.git/hooks/pre-push
-
 ignore_list=()
 ignore_list+=('/.git')
 ignore_list+=('/coverage')
