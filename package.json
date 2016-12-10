@@ -1,8 +1,8 @@
 {
   "name": "cpf_utils",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Utilities for studying CPF format. Including generation and validation",
-  "main": "generate_cpfs.js",
+  "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --recursive -R spec && npm run lint",
     "lint": "./node_modules/.bin/eslint ."
@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.6",
+    "commander": "^2.9.0",
     "ramda": "^0.22.1"
   },
   "devDependencies": {
