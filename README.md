@@ -6,8 +6,8 @@ Some utilities for handling CPF
 - Validator
 - Generator
 
-### Problems:
-- Generators takes too long to generate. By my calculations, it would take around 578 days to generate all.
+### Obs:
+- Generator takes ~8s to generate 1 million valid CPFs on my machine
 
 #### LICENSE
 - [MIT](LICENSE)
