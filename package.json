@@ -1,6 +1,6 @@
 {
   "name": "cpf_utils",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Utilities for studying CPF format. Including generation and validation",
   "main": "index.js",
   "scripts": {
