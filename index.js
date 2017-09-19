@@ -15,7 +15,6 @@ switch (operation.name) {
 
     console.log('CPF is invalid');
     process.exit(1);
-    break;
   case 'generate':
     generate_all_cpfs(operation.argument)
       .then(() => process.exit(0))

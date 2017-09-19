@@ -16,17 +16,20 @@
   "author": "Leonardo de Oliveira Lourenço",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.4.6",
-    "commander": "^2.9.0",
-    "ramda": "^0.22.1"
+    "bluebird": "^3.5.0",
+    "commander": "^2.11.0",
+    "ramda": "^0.24.1"
   },
   "devDependencies": {
-    "eslint": "^3.11.1",
-    "chai": "^3.5.0",
-    "eslint-config-standard": "^6.2.1",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^2.0.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.7.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-chai-friendly": "^0.4.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
     "istanbul": "^0.4.5",
-    "mocha": "^3.2.0"
+    "mocha": "^3.5.3"
   }
 }
