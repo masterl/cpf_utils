@@ -13,7 +13,7 @@
     "env": {
         "browser": false,
         "node": true,
-        "mocha": true
+        "mocha": false
     },
     "rules": {
       "eqeqeq": ["error", "smart"],
