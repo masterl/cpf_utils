@@ -4,7 +4,7 @@
   "description": "Utilities for studying CPF format. Including generation and validation",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --recursive -R spec && npm run lint",
+    "test": "./node_modules/.bin/nyc ./node_modules/.bin/_mocha && npm run lint",
     "lint": "./node_modules/.bin/eslint ."
   },
   "keywords": [
@@ -16,20 +16,20 @@
   "author": "Leonardo de Oliveira Lourenço",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.5.0",
-    "commander": "^2.11.0",
-    "ramda": "^0.24.1"
+    "bluebird": "^3.7.0",
+    "commander": "^3.0.2",
+    "ramda": "^0.26.1"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "eslint": "^4.7.1",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-chai-friendly": "^0.4.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "istanbul": "^0.4.5",
-    "mocha": "^3.5.3"
+    "chai": "^4.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1"
   }
 }
