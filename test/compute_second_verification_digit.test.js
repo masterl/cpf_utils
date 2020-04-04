@@ -1,5 +1,3 @@
-'use strict';
-
 const compute_second_verification_digit = require('../lib/compute_second_verification_digit');
 
 describe('compute_second_verification_digit', () => {

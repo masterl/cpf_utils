@@ -1,5 +1,3 @@
-'use strict';
-
 const not_all_equal = require('../lib/not_all_equal');
 
 describe('not_all_equal', () => {

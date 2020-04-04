@@ -1,5 +1,3 @@
-'use strict';
-
 const compute_first_verification_digit = require('../lib/compute_first_verification_digit');
 
 describe('compute_first_verification_digit', () => {

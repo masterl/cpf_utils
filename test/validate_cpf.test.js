@@ -1,5 +1,3 @@
-'use strict';
-
 const validate_cpf = require('../lib/validate_cpf');
 
 describe('validate_cpf', () => {
